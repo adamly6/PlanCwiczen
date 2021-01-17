@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "440180999378",
+    "firebase_url": "https://gymlive-50f61-default-rtdb.firebaseio.com",
+    "project_id": "gymlive-50f61",
+    "storage_bucket": "gymlive-50f61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440180999378:android:dcd9a6208ede699737d90b",
+        "android_client_info": {
+          "package_name": "com.example.aplikacjamobilna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440180999378-a1okb7hrr98rgi1c3cup6k7i9c7dhqhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwTsxKPgZV54qRNl2xGNrthARjBezXA4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440180999378-a1okb7hrr98rgi1c3cup6k7i9c7dhqhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

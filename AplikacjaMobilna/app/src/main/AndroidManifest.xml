@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aplikacjamobilna">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikacjaMobilna">
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"></activity>
+
+        <activity android:name=".PoniedzialekActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".PoniedzialekAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PoniedzialekActivity"/>
+        </activity>
+
+        <activity android:name=".WtorekActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".WtorekAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WtorekActivity"/>
+        </activity>
+
+        <activity android:name=".SrodaActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".SrodaAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SrodaActivity"/>
+        </activity>
+
+        <activity android:name=".CzwartekActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".CzwartekAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CzwartekActivity"/>
+        </activity>
+
+        <activity android:name=".PiatekActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".PiatekAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PiatekActivity"/>
+        </activity>
+
+        <activity android:name=".SobotaActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".SobotaAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SobotaActivity"/>
+        </activity>
+
+        <activity android:name=".NiedzielaActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+        <activity android:name=".NiedzielaAddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NiedzielaActivity"/>
+        </activity>
+
+
+
+
+
+        <activity android:name=".AddActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+        </activity>
+
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
