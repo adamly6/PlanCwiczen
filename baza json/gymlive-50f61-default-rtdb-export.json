@@ -1,0 +1,132 @@
+{
+  "cwiczenia" : [ null, {
+    "id" : 1,
+    "nazwa" : "pompki"
+  }, {
+    "id" : 2,
+    "nazwa" : "brzuszki"
+  }, {
+    "id" : 3,
+    "nazwa" : "skłony"
+  }, {
+    "id" : 4,
+    "nazwa" : "przysiady"
+  }, {
+    "id" : 5,
+    "nazwa" : "Podciganie"
+  }, {
+    "id" : 6,
+    "nazwa" : "Skok do wody"
+  }, {
+    "id" : 7,
+    "nazwa" : "Martwy ciag"
+  }, {
+    "id" : 8,
+    "nazwa" : "Podnoszenie sztangi"
+  }, {
+    "id" : 9,
+    "nazwa" : "Rozgrzewka"
+  }, {
+    "id" : 10,
+    "nazwa" : "Wyciskanie na skosnej"
+  }, {
+    "id" : 11,
+    "nazwa" : "nowe cwiczenie"
+  }, {
+    "id" : 12,
+    "nazwa" : "tak"
+  }, {
+    "id" : 13,
+    "nazwa" : "nowe czwiczenie 2"
+  }, {
+    "id" : 14,
+    "nazwa" : "Nowe cwiczenie 3"
+  }, {
+    "id" : 15,
+    "nazwa" : "nowe wiczenie 1"
+  } ],
+  "users" : {
+    "UyBrqHFZMoT9FH0VDmBuDOmWJcw2" : {
+      "cwiczenia" : {
+        "czwartek" : {
+          "2" : {
+            "zaliczone" : 1
+          },
+          "5" : {
+            "id" : 5,
+            "nazwa" : "Podciganie",
+            "zaliczone" : 0
+          },
+          "9" : {
+            "id" : 9,
+            "nazwa" : "Rozgrzewka",
+            "zaliczone" : 0
+          }
+        },
+        "niedziela" : {
+          "1" : {
+            "id" : 1,
+            "nazwa" : "pompki",
+            "zaliczone" : 0
+          },
+          "3" : {
+            "zaliczone" : 1
+          },
+          "6" : {
+            "id" : 6,
+            "nazwa" : "Skok do wody",
+            "zaliczone" : 0
+          },
+          "13" : {
+            "id" : 13,
+            "nazwa" : "nowe czwiczenie 2",
+            "zaliczone" : 0
+          }
+        },
+        "piatek" : {
+          "9" : {
+            "id" : 9,
+            "nazwa" : "Rozgrzewka",
+            "zaliczone" : 0
+          }
+        },
+        "sobota" : {
+          "7" : {
+            "id" : 7,
+            "nazwa" : "Martwy ciag",
+            "zaliczone" : 0
+          }
+        },
+        "sroda" : {
+          "4" : {
+            "id" : 4,
+            "nazwa" : "przysiady",
+            "zaliczone" : 1
+          },
+          "6" : {
+            "id" : 6,
+            "nazwa" : "Skok do wody",
+            "zaliczone" : 0
+          },
+          "9" : {
+            "id" : 9,
+            "nazwa" : "Rozgrzewka",
+            "zaliczone" : 0
+          },
+          "12" : {
+            "id" : 12,
+            "nazwa" : "tak",
+            "zaliczone" : 0
+          },
+          "13" : {
+            "id" : 13,
+            "nazwa" : "nowe czwiczenie 2",
+            "zaliczone" : 0
+          }
+        }
+      },
+      "uid" : "UyBrqHFZMoT9FH0VDmBuDOmWJcw2",
+      "username" : "adam"
+    }
+  }
+}
